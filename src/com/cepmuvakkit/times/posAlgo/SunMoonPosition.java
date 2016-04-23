@@ -40,7 +40,6 @@ public class SunMoonPosition {
         qiblaInfo = earth.toEarthHeading(qibla);
         // moonPhase = (1 + cos(pi - E)) / 2;
         moonPhase = (1 + Math.cos(Math.PI - E)) / 2;//48694254279852139 e-17
-        //System.out.println(qiblaInfo.getKiloMetres());
     }
 
     public Horizontal getSunPosition() {
